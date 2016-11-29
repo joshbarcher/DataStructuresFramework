@@ -1,0 +1,14 @@
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\bin\Debug\DataStructureTests.dll
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\bin\Debug\DataStructureTests.pdb
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\bin\Debug\DataStructures.dll
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\bin\Debug\DataStructures.pdb
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\obj\Debug\DataStructureTests.dll
+C:\Users\Rpg\Desktop\DataStructures\DataStructureTests\obj\Debug\DataStructureTests.pdb
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\bin\Debug\DataStructureTests.dll
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\bin\Debug\DataStructureTests.pdb
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\bin\Debug\DataStructures.dll
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\bin\Debug\DataStructures.pdb
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\obj\Debug\DataStructureTests.dll
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructureTests\obj\Debug\DataStructureTests.pdb

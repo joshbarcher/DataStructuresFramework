@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataStructures</RootNamespace>
+    <AssemblyName>DataStructures</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Academics\HashSetFactory.cs" />
+    <Compile Include="Academics\Internals.cs" />
+    <Compile Include="Academics\Sorting.cs" />
+    <Compile Include="Algorithms\Arrays.cs" />
+    <Compile Include="Algorithms\Subsets.cs" />
+    <Compile Include="Basic\ArrayList.cs" />
+    <Compile Include="Basic\BinaryHeap.cs" />
+    <Compile Include="Basic\BinarySearchTree.cs" />
+    <Compile Include="Basic\BoundedStack.cs" />
+    <Compile Include="Basic\DirectedGraph_AL.cs" />
+    <Compile Include="Basic\DisjointSets.cs" />
+    <Compile Include="Basic\HashMap.cs" />
+    <Compile Include="Basic\HashSet.cs" />
+    <Compile Include="Basic\LinkedList.cs" />
+    <Compile Include="Basic\PriorityQueue.cs" />
+    <Compile Include="Basic\Queue.cs" />
+    <Compile Include="Basic\Stack.cs" />
+    <Compile Include="Basic\TreeMap.cs" />
+    <Compile Include="Basic\TreeSet.cs" />
+    <Compile Include="Basic\UndirectedGraph_AL.cs" />
+    <Compile Include="Exceptions\ClassCastException.cs" />
+    <Compile Include="Exceptions\IllegalStateException.cs" />
+    <Compile Include="Exceptions\ModificationException.cs" />
+    <Compile Include="Exceptions\Preconditions.cs" />
+    <Compile Include="Exceptions\StackUnderflowException.cs" />
+    <Compile Include="HelperClasses\AL_Iterator.cs" />
+    <Compile Include="HelperClasses\AL_ListIterator.cs" />
+    <Compile Include="HelperClasses\BinaryNode.cs" />
+    <Compile Include="HelperClasses\BSTIterator.cs" />
+    <Compile Include="HelperClasses\Edge.cs" />
+    <Compile Include="HelperClasses\GraphIterator.cs" />
+    <Compile Include="HelperClasses\HashEntry.cs" />
+    <Compile Include="HelperClasses\HashIterator.cs" />
+    <Compile Include="HelperClasses\KeyValue.cs" />
+    <Compile Include="HelperClasses\LL_Iterator.cs" />
+    <Compile Include="HelperClasses\LL_ListIterator.cs" />
+    <Compile Include="HelperClasses\LL_Node.cs" />
+    <Compile Include="HelperClasses\MAryNode.cs" />
+    <Compile Include="HelperClasses\Observable.cs" />
+    <Compile Include="HelperClasses\TreeKeyValue.cs" />
+    <Compile Include="HelperClasses\Vertex.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="Interfaces\BasicHeap.cs" />
+    <Compile Include="Interfaces\BasicQueue.cs" />
+    <Compile Include="Interfaces\BasicStack.cs" />
+    <Compile Include="Interfaces\Cloneable.cs" />
+    <Compile Include="Interfaces\Collection.cs" />
+    <Compile Include="Interfaces\Comparable.cs" />
+    <Compile Include="Interfaces\Comparator.cs" />
+    <Compile Include="Interfaces\DirectedGraph.cs" />
+    <Compile Include="Interfaces\GraphSearchable.cs" />
+    <Compile Include="Interfaces\Iterator.cs" />
+    <Compile Include="Interfaces\List.cs" />
+    <Compile Include="Interfaces\ListIterator.cs" />
+    <Compile Include="Interfaces\Map.cs" />
+    <Compile Include="Interfaces\Observer.cs" />
+    <Compile Include="Interfaces\Set.cs" />
+    <Compile Include="Interfaces\SimpleEdge.cs" />
+    <Compile Include="Interfaces\SortedCollection.cs" />
+    <Compile Include="Interfaces\Tree.cs" />
+    <Compile Include="Interfaces\TreeSearchable.cs" />
+    <Compile Include="Interfaces\UndirectedGraph.cs" />
+    <Compile Include="PrimitiveWrappers\GenericWrapper.cs" />
+    <Compile Include="PrimitiveWrappers\Wrappers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Algorithms\Randomization.cs" />
+    <Compile Include="Algorithms\Searching.cs" />
+    <Compile Include="Algorithms\SetOperations.cs" />
+    <Compile Include="Algorithms\Sorting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Advanced\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

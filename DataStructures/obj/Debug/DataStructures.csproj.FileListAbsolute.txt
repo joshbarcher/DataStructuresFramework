@@ -1,0 +1,10 @@
+C:\Users\Rpg\Desktop\DataStructures\DataStructures\bin\Debug\DataStructures.dll
+C:\Users\Rpg\Desktop\DataStructures\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\Rpg\Desktop\DataStructures\DataStructures\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rpg\Desktop\DataStructures\DataStructures\obj\Debug\DataStructures.dll
+C:\Users\Rpg\Desktop\DataStructures\DataStructures\obj\Debug\DataStructures.pdb
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructures\bin\Debug\DataStructures.dll
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructures\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructures\obj\Debug\DataStructures.dll
+C:\Users\Rpg\Documents\My Programming\DataStructures\DataStructures\obj\Debug\DataStructures.pdb

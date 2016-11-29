@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureTests", "DataStructureTests\DataStructureTests.csproj", "{EDA8AE2F-67EF-4EAB-B091-5B2DC149359D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54D0B834-F983-4615-B91A-A14C817FFE06}"
+	ProjectSection(SolutionItems) = preProject
+		DataStructures.vsmdi = DataStructures.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureExamples", "DataStructureExamples\DataStructureExamples.csproj", "{7DB08FE1-BC60-4553-AD2F-C5D0564C23B1}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DataStructures.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4767A5E6-5628-4C0B-81AF-BDA43C9ADFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA8AE2F-67EF-4EAB-B091-5B2DC149359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA8AE2F-67EF-4EAB-B091-5B2DC149359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA8AE2F-67EF-4EAB-B091-5B2DC149359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA8AE2F-67EF-4EAB-B091-5B2DC149359D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB08FE1-BC60-4553-AD2F-C5D0564C23B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB08FE1-BC60-4553-AD2F-C5D0564C23B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB08FE1-BC60-4553-AD2F-C5D0564C23B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB08FE1-BC60-4553-AD2F-C5D0564C23B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
